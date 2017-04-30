@@ -11,6 +11,7 @@ namespace team
         public Class2()
         {
             Console.WriteLine("another one is created");
+            Console.WriteLine("add whatever you want here");
         }
     }
 }
