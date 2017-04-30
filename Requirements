@@ -1,0 +1,95 @@
+Customer
+*1-Customer can login 	
+*2-If customer doesnt have an account he can sign up
+	-name
+	-phone
+	-email
+	-gender
+	-DOB
+	-address
+	-username
+	-password	
+	
+*3-Customer can buy tickets for 3-5 space tour pacages (Fixed package)
+	-4-customer can get custom pacages 
+*5-customer can select number of tickets
+*6-Customer can select seat ( 3 space craft by using a class )
+*7-After confirming order customer can login to see the details of what he has purchased and/
+	or any messages from the admin (Optional)
+*8-Customer can change his/her info
+
+ 
+Admin
+*1-Admin can login
+
+*2-an Admin can create a new admin 
+	-name
+	-phone
+	-email
+	-gender
+	-DOB
+	-address
+	-username
+	-password
+	-Designation	
+
+*3-Admin can view all the customers 
+*4-Admin can view what each customer has ordered 
+  	5-Admin can send messages to the account of customers (Optional)
+*6-Admin can create a customer (Admin will be linked to the customer)
+*7-Admin can delete a customer 
+*8-Admin can change his/her info
+
+#A class may be built for each space ship 
+#A class for customer
+#A class for admin
+
+#Database design
+Customer table
+	-ID (Primary key)
+	-name
+	-phone
+	-email
+	-gender
+	-DOB
+	-address
+	-username
+	-password	
+
+Admin table
+	-ID
+	-name
+	-phone
+	-email
+	-gender
+	-DOB
+	-address
+	-username
+	-password
+	-Designation	
+
+Spacecraft table
+	-ID
+	-Name
+	-craft class
+	-Total seats
+	-Available
+	-Occupied 
+Tour Package table
+	-ID
+	-Name
+	-Destination 
+	-Time 
+	-Cost
+	-Launch date
+	-Arival date
+	-
+
+
+
+
+#Class to be created 
+Customer
+Admin
+Spacecraft
+Database
